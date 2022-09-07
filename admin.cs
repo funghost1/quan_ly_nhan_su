@@ -98,5 +98,19 @@ namespace quanly
             this.Hide();
             admin.ShowDialog();
         }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            quanlyNV admin = new quanlyNV();
+            this.Hide();
+            admin.ShowDialog();
+        }
+
+        private void tiềngLươngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            luong admin = new luong();
+            this.Hide();
+            admin.ShowDialog();
+        }
     }
 }

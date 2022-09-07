@@ -54,6 +54,8 @@
             this.tienluongso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tienluonghientai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Emai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.trove = new System.Windows.Forms.Button();
+            this.load = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -294,12 +296,35 @@
             this.Emai.MinimumWidth = 6;
             this.Emai.Name = "Emai";
             // 
+            // trove
+            // 
+            this.trove.ForeColor = System.Drawing.Color.Red;
+            this.trove.Location = new System.Drawing.Point(649, 290);
+            this.trove.Name = "trove";
+            this.trove.Size = new System.Drawing.Size(117, 37);
+            this.trove.TabIndex = 14;
+            this.trove.Text = "Trở Về";
+            this.trove.UseVisualStyleBackColor = true;
+            this.trove.Click += new System.EventHandler(this.trove_Click);
+            // 
+            // load
+            // 
+            this.load.Location = new System.Drawing.Point(159, 290);
+            this.load.Name = "load";
+            this.load.Size = new System.Drawing.Size(117, 37);
+            this.load.TabIndex = 15;
+            this.load.Text = "Tải Lại";
+            this.load.UseVisualStyleBackColor = true;
+            this.load.Click += new System.EventHandler(this.load_Click);
+            // 
             // luong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 676);
+            this.Controls.Add(this.load);
+            this.Controls.Add(this.trove);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.indanhsach);
             this.Controls.Add(this.traluong);
@@ -349,5 +374,7 @@
         private DataGridViewTextBoxColumn tienluongso;
         private DataGridViewTextBoxColumn tienluonghientai;
         private DataGridViewTextBoxColumn Emai;
+        private Button trove;
+        private Button load;
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lWfS0Ncth+5mmAP1tM+lSdh9fL7P8+IP7+wxEMqjT8307cVwvwqoiUHJKg/uTY2Z1fsVPlXHBLzZFggPk7qYsg==",
+  "dgSpecHash": "NX8NZUNQ90D8OUfl/vQFPI1GFGJFcczkuFTGt+u7thUF9by8p4HnMYDwpRzVzyRXxTG7dce2hGmfFideIgX68g==",
   "success": true,
-  "projectFilePath": "E:\\1hocdotnet\\quanly\\quanly.csproj",
+  "projectFilePath": "E:\\1hocdotnet\\quan_ly_nhan_su\\quanly.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dang\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\Dang\\.nuget\\packages\\epplus\\6.0.7\\epplus.6.0.7.nupkg.sha512",

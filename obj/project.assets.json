@@ -2653,11 +2653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\1hocdotnet\\quanly\\quanly.csproj",
+      "projectUniqueName": "E:\\1hocdotnet\\quan_ly_nhan_su\\quanly.csproj",
       "projectName": "quanly",
-      "projectPath": "E:\\1hocdotnet\\quanly\\quanly.csproj",
+      "projectPath": "E:\\1hocdotnet\\quan_ly_nhan_su\\quanly.csproj",
       "packagesPath": "C:\\Users\\Dang\\.nuget\\packages\\",
-      "outputPath": "E:\\1hocdotnet\\quanly\\obj\\",
+      "outputPath": "E:\\1hocdotnet\\quan_ly_nhan_su\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
