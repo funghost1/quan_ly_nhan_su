@@ -58,6 +58,12 @@ namespace quanly
                     this.Close();
                   
                 }
+                else if (kq.Count() > 0 && kq.FirstOrDefault().Chucvu ==6) 
+                {
+                    
+                    MessageBox.Show("Tài Khoảng Của Bạn Chưa Được Kích Hoạt Vui Lòng Liên Hệ Với Chủ Shop");
+
+                }
                 else MessageBox.Show("sai tên tài khoản hoặc mật khẩu");
             }
             else MessageBox.Show("Bạn chưa nhập mật tài khoản hoặc mật khẩu");

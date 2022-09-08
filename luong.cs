@@ -131,6 +131,7 @@ namespace quanly
                         them.Chucvu = _cv;
                         sql.Add(them);
                         sql.SaveChanges();
+                        
 
 
                         quanlyquanContext sql1 = new quanlyquanContext();
@@ -171,10 +172,6 @@ namespace quanly
             application.ActiveWorkbook.Saved = true; 
         }
 
-        private void ImportExcel(string path)
-        {
-
-        }
         // nút xuất file pdf
         private void indanhsach_Click(object sender, EventArgs e)
         {

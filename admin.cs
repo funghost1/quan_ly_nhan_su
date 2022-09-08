@@ -112,5 +112,13 @@ namespace quanly
             this.Hide();
             admin.ShowDialog();
         }
+
+        private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            thongke ad = new thongke();
+            this.Hide();
+            ad.ShowDialog();
+            this.Close();
+        }
     }
 }

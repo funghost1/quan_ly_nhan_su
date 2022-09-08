@@ -134,3 +134,5 @@ E:\1hocdotnet\quan_ly_nhan_su\obj\Debug\net6.0-windows\refint\quanly.dll
 E:\1hocdotnet\quan_ly_nhan_su\obj\Debug\net6.0-windows\quanly.pdb
 E:\1hocdotnet\quan_ly_nhan_su\obj\Debug\net6.0-windows\quanly.genruntimeconfig.cache
 E:\1hocdotnet\quan_ly_nhan_su\obj\Debug\net6.0-windows\ref\quanly.dll
+E:\1hocdotnet\quan_ly_nhan_su\obj\Debug\net6.0-windows\quanly.thongke.resources
+E:\1hocdotnet\quan_ly_nhan_su\obj\Debug\net6.0-windows\quanly.dangky.resources
